@@ -3,13 +3,16 @@
   "builds": [
     {
       "src": "PhotoGallery.csproj",
-      "use": "@vercel/dotnet"
+      "use": "@vercel/dotnet",
+      "config": {
+        "project": "PhotoGallery"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/index"
+      "dest": "PhotoGallery.dll"
     }
   ]
 }
