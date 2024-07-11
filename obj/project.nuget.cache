@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tn9gj5U5ybU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rcilo\\source\\repos\\PhotoGallery\\PhotoGallery\\PhotoGallery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rcilo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\rcilo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\rcilo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\rcilo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.32\\microsoft.netcore.app.host.win-x64.6.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}

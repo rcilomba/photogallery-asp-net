@@ -1,0 +1,8 @@
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\PhotoGallery.exe
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\appsettings.json
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\vercel.json
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\PhotoGallery.dll
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\PhotoGallery.deps.json
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\PhotoGallery.runtimeconfig.json
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\bin\Release\net6.0\publish\PhotoGallery.pdb

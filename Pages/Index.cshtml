@@ -1,0 +1,27 @@
+﻿@page
+@using PhotoGallery.Components
+@using System.Net.Http
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+@model IndexModel
+@inject IJSRuntime JSRuntime
+
+@{
+    ViewData["Title"] = "Photo by Ramma";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Photo Gallery</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Hello everybody! The time on the server is @DateTime.Now</p>
+</div>
+
+
+@(await Html.RenderComponentAsync<PhotoList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>
+

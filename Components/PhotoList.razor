@@ -1,0 +1,94 @@
+﻿@page "/"
+@using PhotoGallery.Models
+@using PhotoGallery.Services
+@using System.Net.Http
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+@inject JsonFilePhotoService PhotoService
+
+
+<div class="card-row">
+    @foreach (var photo in PhotoService.GetPhotos())
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@photo.Image');"></div>
+            <div class="card-body">
+                <h5 class="card-title">@photo.Title</h5>
+            </div>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">
+                <button @onclick="(e => SelectPhoto(photo?.Id ?? string.Empty))"
+                    data-toggle="modal" data-target="#photoModal" class="btn btn-primary">
+                    More info
+                </button>
+            </small>
+        </div>
+    }
+</div>
+
+
+
+@if (@selectedPhoto != null)
+{
+
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+                    <h2 class="card-text">@selectedPhoto.Title</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="CloseModal" >
+            </button>
+        </div>
+        <div class="modal-body">
+                <div class="card-img" style="background-image: url('@selectedPhoto.Image');">
+                </div>
+                <div class="card-body">
+                    <img src="@selectedPhoto.Image" alt="@selectedPhoto.Description">
+                    <p class="card-text">@selectedPhoto.Description</p>
+
+                  
+                </div>
+            </div>
+        </div>
+        </div>
+}
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+@code {
+
+
+    Photo? selectedPhoto;
+    string? selectedPhotoId;
+
+    void SelectPhoto(string photoId)
+    {
+        selectedPhotoId = photoId;
+        selectedPhoto = PhotoService.GetPhotos().First(x => x.Id == photoId);
+        System.Diagnostics.Debug.WriteLine($"Mindaugas says selected photo is: {selectedPhoto.Title}");
+        //StateHasChanged();
+
+      
+    }
+    void CloseModal()
+    {
+        selectedPhoto = null;
+        selectedPhotoId = null;
+
+    }
+
+
+  
+}
+
