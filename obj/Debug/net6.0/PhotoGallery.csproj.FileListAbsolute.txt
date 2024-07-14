@@ -13,7 +13,6 @@ C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGall
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.RazorAssemblyInfo.cache
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.RazorAssemblyInfo.cs
-C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.sourcelink.json
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\staticwebassets\msbuild.PhotoGallery.Microsoft.AspNetCore.StaticWebAssets.props
@@ -29,3 +28,4 @@ C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\refint\Ph
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.pdb
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.genruntimeconfig.cache
 C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\ref\PhotoGallery.dll
+C:\Users\rcilo\source\repos\PhotoGallery\PhotoGallery\obj\Debug\net6.0\PhotoGallery.sourcelink.json
